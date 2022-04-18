@@ -1,0 +1,47 @@
+#화씨를 섭씨로 변환하는 프로그램
+ftemp = 90
+ctemp = (ftemp-32)*5/9
+print('화씨',ftemp,'를 섭씨로 변환한 온도는',ctemp)
+
+#터틀그래픽 예제
+import turtle
+#t= turtle.Turtle('turtle')
+
+t= turtle.Turtle()
+t.shape('turtle')
+
+
+t.pencolor('red')
+
+t.fd(200)
+t.rt(90)
+
+t.fd(200)
+t.rt(90)
+
+t.fd(200)
+t.rt(90)
+
+t.fd(200)
+t.rt(90)
+
+t.circle(100)
+t.lt(90)
+
+t.circle(100)
+t.lt(90)
+
+t.circle(100)
+t.lt(90)
+
+
+#guswo 5000원이 있고, 사탕의 가격은 개당 120원. 최대한 살수있는 사탕의 개수와 거스름돈은 얼마인가?
+money=5000
+x=5000//120
+print(x)
+
+y=(5000-x*120)
+print(y)
+
+print('최대 살수 있는 사탕의 개수는',x,'개이며, 거스름돈은 ',y,'이다.')
+
