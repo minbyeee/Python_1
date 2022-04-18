@@ -1,0 +1,5 @@
+sign="stop"
+
+while sign=="stop": #조건
+    sign=input("현재신호를 입력하시오:") #반복되게할부분은 tab들여쓰기
+print("OK! 진행합니다.")
